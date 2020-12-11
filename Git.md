@@ -16,7 +16,7 @@ A copy of one version of the git project, taken from compressed database in the 
 File that stores information about what will next be committed into the git repository
 
 
-##Make Changes
+## Make Changes
 
 > git status
 
@@ -41,7 +41,7 @@ Unstages the file, but preserves its contents
 Records the file snapshots permanently in version history
 
 
-##Refactor Filenames
+## Refactor Filenames
 
 > git rm \[file\]
 
@@ -54,7 +54,7 @@ Removes the file from version control but preserves the file locally
 Changes the file name and prepares it for commit
 
 
-##Suppress Tracking
+## Suppress Tracking
 
 > .log
 > build/
@@ -66,7 +66,7 @@ A text file named .gitignore suppresses accidental versioning of files and paths
 Lists all ignored files in this project
 
 
-##Review History
+## Review History
 
 > git log
 
@@ -82,7 +82,7 @@ Shows content differences between two branches
 Outputs metadata and content changes of the specified commit
 
 
-##Debugging
+## Debugging
 
 > git blame \[file\]
 
@@ -92,7 +92,7 @@ Show what revision and author last modified each line of a file
 Use binary search to find the commit that introduced a bug
 
 
-##Configure Tooling
+## Configure Tooling
 
 > git config --global user name "\[name\]"
 
@@ -105,7 +105,7 @@ Sets the email you want attached to your commit transactions
 Enables helpful colorizations of command line input
 
 
-##Creat Repositories
+## Creat Repositories
 
 >  git init \[project-name\]
 
@@ -115,7 +115,7 @@ Creates a new local repository with the specified name
 Downloads a project and its entire version history
 
 
-##Group Changes
+## Group Changes
 
 > git branch
 
@@ -140,7 +140,7 @@ Add a new remote git repository as a shortname
 Lists all remote git repositories
 
 
-##Save Fragments
+## Save Fragments
 
 >git stash
 
@@ -162,7 +162,7 @@ Show the changes recorded in the stash
 Discards the most recently stashed changeset
 
 
-##Redo Commits
+## Redo Commits
 >git reset \[commit\]
 
 Undoes all commits after \[commit\], preserving changes locally
@@ -171,7 +171,7 @@ Undoes all commits after \[commit\], preserving changes locally
 Discards all history and changes back to the specified commit
 
 
-##Synchronize changes
+## Synchronize changes
 
 > git fetch \[bookmark\] \[branch\]
 
